@@ -7,7 +7,7 @@ public class ColisionSound : MonoBehaviour
 {
 
 
-    [SerializeField] private AudioClip audioImpactBall;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -21,15 +21,7 @@ public class ColisionSound : MonoBehaviour
 
     }
 
-    public void OnCollisionEnter(Collision collision)
-    {
-        /*if (collision == LayerMask(default))
-        {
-
-        }*/
+   
 
 
-    }
-
-  
 }
